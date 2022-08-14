@@ -1,0 +1,174 @@
+@import url(https://fonts.google.com/specimen/Fira+Sans?query=fira);
+@import url(https://fonts.google.com/specimen/Source+Code+Pro?query=source+code+);
+@import url(https://fonts.google.com/specimen/PT+Sans);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:rgb(182, 181, 181);
+    width: 15vw;
+    font-family: "fira sans", sans-serif;
+    height: 100vh;
+}
+
+.main {
+
+    width: 85vw;
+}
+
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.sidebar nav li a{
+   text-decoration : none;
+    color:white;
+}
+
+.contain {
+    display: flex;
+}
+
+.info {
+    
+    height: 68vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dpic img {
+    width: 30vw;
+    padding-top: 70px;
+
+}
+
+.dinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hell{
+    font-size:85px;
+
+}
+.name{
+font-size: 60px;
+font-weight: bold;
+}
+.about{
+font-size:40px;
+}
+.more{
+    font-size:25px;
+}
+.but{
+padding-top: 25px;
+border-radius: 25px;
+}
+.but button{
+    border-radius: 25px;
+    padding: 10px;
+    margin: 5px;
+    background-color: aqua;
+}
+.but button:hover{
+    background-color: rgb(151, 223, 117);
+    color: red;
+}
+.blogitem{
+    margin:20px;
+}
+.blogitem h1{
+    font-family:"fira sans",sans-serif;
+}
+.d{
+    margin-left: 20px;
+}
+.b{
+    margin-top: 10px;
+    background-color: rgb(177, 177, 240);
+    color:red;
+    border-radius:15px;
+    font-size:15px;
+    padding: 7px;
+
+}
+.intro p,h1 ,h2{
+    margin: 20px;
+}
+.skillscontain{
+    margin:20px;
+}
+.skills{
+    height:11px;
+    width:260px;
+    background-color: aquamarine;
+}
+.skillsc{
+    height:11px;
+    width:200px;
+    background-color: rgb(8, 243, 165);
+
+}
+.skillst{
+    height:11px;
+    width:213px;
+    background-color: rgb(203, 163, 240);
+}
+.project li{
+    margin-left:25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(250, 154, 10)
+
+}
+.service{
+    color:#fff;
+    background: #111;
+    width:85vw;
+
+}
+.t::before{
+    background: #fff;
+}
+.service.t::after{
+    background: #111;
+    content:"what i provide";
+}
+.service .serv .car{
+    width: calc(33%-20px);
+    background: #222222;
+    text-align: center;
+    border-radius: 127px;
+    padding: 83px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.serv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.t{
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(4, 112, 76);
+    font-size:50px;
+}
+.max{
+    margin: 68px;
+}

@@ -1,0 +1,78 @@
+@import url(https://fonts.google.com/specimen/Fira+Sans?query=fira);
+@import url(https://fonts.google.com/specimen/Fjalla+One);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar {
+    background-color:rgb(182, 181, 181);
+    width: 15vw;
+    font-family: "fira sans", sans-serif;
+    height: 100vh;
+}
+.sidebar nav {
+    padding: 35px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.sidebar nav li a{
+   text-decoration : none;
+    color:white;
+}
+main {
+
+    width: 90vw;
+}
+.contain {
+    display: flex;
+}
+.contactform h1{
+    font-family: "Fjalla One";
+    text-align: center;
+    padding-left: 226px;
+
+}
+.contactform{
+    font-family:"fira-sans",sans-serif;
+    padding-top: 144px;
+    padding-left: 34px;
+}
+.contactform form div{
+    padding:10px 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#emailHelp{
+    color:midnightblue;
+    font-size:8px;
+    margin:0 5px;
+}
+#isclient{
+    padding-right:156px;
+}
+.contactform form div input{
+    width:16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width:21px;
+    margin-top: 1px;
+}
+.sub{
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+}
